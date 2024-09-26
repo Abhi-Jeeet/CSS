@@ -1,0 +1,10 @@
+p{
+    /* font-style: italic; */
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    line-height: 50px;
+}
+
+#firstPara{
+    background-color: rgba(0, 255, 255, 0.42);
+}
