@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+img{ 
+    margin: 20px;
+}
+
+/* Relative Position */
+
+/* 1.Position : relative
+   2.relative with respect to current window
+   3.Space maintained rhega
+*/
+
+/* #image2{
+    position: relative;
+    top: 100px;
+    left: 150px;
+} */
+
+/* absolute position 
+   1.absolute-> relation to its closet 
+   2.positioned ancestor
+   No gap maintained
+*/
+.container{
+    
+    height: 2000px;
+}
+#image2{
+    position: fixed;
+}
+
+/* Sticky */
+/* 
+ 1.ye sirf apne container me hi rehte hai
+ 2.relative to parent container
+
+*/
+#image1{
+    position: sticky;
+    top: 100px;     
+}
+
+
+.box{
+    border: 2px solid black;
+    background: aqua;
+    height: 2000px;
+}
