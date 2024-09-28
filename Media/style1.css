@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    justify-content: start;
+    
+    
+}
+@media (max-width:450px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.leftbox{
+    display: flex;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.rightbox{
+    
+}

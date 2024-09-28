@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        background-color: green;
+    }
+}
