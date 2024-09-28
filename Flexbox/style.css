@@ -1,0 +1,52 @@
+.container{
+    background-color: beige;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    display: flex ;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    height: 100vh;
+    /* justify content works around main axix */
+    justify-content: center; 
+
+    /* align items works around cross axis */
+    align-items: center;
+
+    /* align-content: start; */
+    
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid red;
+}
+
+#box1{
+    background-color: aqua;
+    order: 200;
+    /* shrink property:- kitne speed se shrink kr rha hai */
+    /* flex-shrink: 4; */
+    flex-grow: 1;
+}
+#box2{
+    background-color: brown;
+    flex-grow: 1;
+    align-self: start;
+    
+}
+#box3{
+    background-color: orange;
+    order: -1;
+    flex-grow: 1;
+    align-self: end;
+
+}
+#box4{
+    background-color: blue;
+    flex-grow: 1;
+
+}
