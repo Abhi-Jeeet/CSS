@@ -1,0 +1,21 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+    border: 2px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 1s linear 1s;
+
+}
+.box:hover{
+    transform: rotate(45deg);
+    transform: scale(2); /*Zoom krna */
+    transform: skew(45deg);/*titlt krna */
+    transform: translate(400px);/*x direction me move krwana*/
+}
+p{
+    font-size: 30px;
+}
